@@ -1,0 +1,5 @@
+name: django_env
+dependencies:
+  - django
+  - pytz
+  - sqlparse
