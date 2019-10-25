@@ -9,25 +9,33 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <div>
-        <figure>
-          <img src="images/logo.png" alt="Logo de http://leonidasesteban.com" />
-        </figure>
-        <nav>
-          <ol>
-            <li>
-              <a href="portfolio.html">Portafolio</a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/watch?v=IRk3tg7xlFs" target="_tab">Experiencia</a>
-            </li>
-            <li>
-              <a href="#">Trabajemos juntos</a>
-            </li>
-          </ol>
-        </nav>
-      </div>
+    <div class="flexbox">
+      <!-- <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div> -->
+      <!-- <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div> -->
+    </div>
+    <header class="header">
+      <figure>
+        <img src="images/logo.png" height="50" alt="Logo de http://leonidasesteban.com"/>
+      </figure>
+      <nav class="menu">
+        <ol>
+          <li>
+            <a href="portfolio.html">Portafolio</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=IRk3tg7xlFs" target="_tab">Experiencia</a>
+          </li>
+          <li>
+            <a href="#">Trabajemos juntos</a>
+          </li>
+        </ol>
+      </nav>
     </header>
     <section class="hero" id="hero">
       <h1>
@@ -35,9 +43,23 @@
       </h1>
       <!-- <img src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio"> -->
     </section>
-    <sectionc id="portfolio">
+    <section class="portfolio" id="portfolio">
       <h2>Portafolio (Proyectos Destacados)</h2>
       <article class="project" id="project-video">
+        <div class="project-details">
+          <h3> Platzi Video</h3>
+          <h6>React Native / React</h6>
+          <p><small><strong>Fecha:</strong> 01/07/2018</small></p>
+          <p><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+          <p>Platzi Video fue el resultado de 3 meses de trabajo
+            para crear la mejor app para enseñar el funcionamiento
+            de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de nevegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</p>
+          </div>
+        <figure class="project-imageContainer">
+          <img  width="500" src="images/platzi-video-react-native.png" alt="proyecto del curso de React Native">
+        </figure>
+      </article>
+      <article class="project" id="project-video1">
         <div class="project-details">
           <h3>Platzi Video</h3>
           <h6>React Native / React</h6>
@@ -70,6 +92,15 @@
         <input type="checkbox" placeholder="Dejanos tu email" id="email">
         <input type="submit" value="texto del boton">
       </form>
-    <footer>footer</footer>
+    <footer class="footer">
+      <div>
+        <p>Curso de Desarrollo Web <img src="images/platzi.png" width="80" alt="Logo Platzi"> </p>
+      </div>
+      <div>
+        <p>
+          Designed with <\3 by  <a href="https://twitter.com">@ADuqueP0512</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
