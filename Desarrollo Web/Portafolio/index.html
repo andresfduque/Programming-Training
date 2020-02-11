@@ -5,6 +5,7 @@
     <title>Leonidas Esteban</title>
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="css/roboto-fontfacekit/web fonts/roboto_regular_macroman/stylesheet.css" type="text/css" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -47,24 +48,10 @@
       <h2>Portafolio (Proyectos Destacados)</h2>
       <article class="project" id="project-video">
         <div class="project-details">
-          <h3> Platzi Video</h3>
-          <h6>React Native / React</h6>
-          <p><small><strong>Fecha:</strong> 01/07/2018</small></p>
-          <p><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-          <p>Platzi Video fue el resultado de 3 meses de trabajo
-            para crear la mejor app para enseñar el funcionamiento
-            de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de nevegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</p>
-          </div>
-        <figure class="project-imageContainer">
-          <img  width="500" src="images/platzi-video-react-native.png" alt="proyecto del curso de React Native">
-        </figure>
-      </article>
-      <article class="project" id="project-video1">
-        <div class="project-details">
-          <h3>Platzi Video</h3>
-          <h6>React Native / React</h6>
-          <p><small><strong>Fecha:</strong> 01/07/2018</small></p>
-          <p><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+          <h3 class="project-title"> Platzi Video</h3>
+          <h6 class="project-course">React Native / React</h6>
+          <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+          <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
           <p>Platzi Video fue el resultado de 3 meses de trabajo
             para crear la mejor app para enseñar el funcionamiento
             de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de nevegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</p>
@@ -74,24 +61,60 @@
         </figure>
       </article>
     </section>
-    <section>
-      <h2>Más sobre mi experiencia</h2>
-      <article>
-        <figure>
-          <img src="images/platzi-conf.jpg" width="500" />
+    <h2 class="event-list-title">Más sobre mi experiencia</h2>
+    <section class="event-list">
+      <article class="event">
+        <figure class="event-figure">
+          <img src="images/platzi-conf.jpg" />
         </figure>
-        <h3>PlatziConf México 2018</h3>
-        <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
-        <a>Ver Plática</a>
+        <div class="event-detail">
+          <h3>PlatziConf México 2018</h3>
+          <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+          <a class="event-url">Ver Plática</a>
+        </div>
       </article>
+      <article class="event">
+        <figure class="event-figure">
+          <img src="images/platzi-conf.jpg" />
+        </figure>
+        <div class="event-detail">
+          <h3>PlatziConf México 2018</h3>
+          <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+          <a class="event-url">Ver Plática</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-figure">
+          <img src="images/platzi-conf.jpg" />
+        </figure>
+        <div class="event-detail">
+          <h3>PlatziConf México 2018</h3>
+          <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+          <a class="event-url">Ver Plática</a>
+        </div>
+      </article>
+        <article class="event">
+          <figure class="event-figure">
+            <img src="images/platzi-conf.jpg" />
+          </figure>
+          <div class="event-detail">
+            <h3>PlatziConf México 2018</h3>
+            <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+            <a class="event-url">Ver Plática</a>
+          </div>
+        </article>
     </section>
-    <section>sección contacto</section>
-      <form action="/subscription/">
+    <section id="contacto" class="contact">
+      <form action="/subscription/" class="form-email">
         <h3>Crearemos algo genial</h3>
-        <label for="email">Dejame tu email</label>
-        <input type="checkbox" placeholder="Dejanos tu email" id="email">
-        <input type="submit" value="texto del boton">
+        <input type="text" placeholder="Dejanos tu email" id="email">
+        <button type="submit">Enviar</button>
       </form>
+      <div class="social">
+        <a href="https://twitter.com/ADuqueP0512" class="social-link twitter" target="_tab"></a>
+        <a href="https://github.com/andresfduque" class="social-link github" target="_tab"></a>
+      </div>
+    </section>
     <footer class="footer">
       <div>
         <p>Curso de Desarrollo Web <img src="images/platzi.png" width="80" alt="Logo Platzi"> </p>
